@@ -6,4 +6,5 @@ phases:
       - ls -alt
 artifacts:
   files:
-    - **/*
+    - "**/*"
+    - .ebextensions/**/*
