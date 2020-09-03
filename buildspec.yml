@@ -9,7 +9,7 @@ phases:
       - ls -alt
 artifacts:
   files:
-    - application.py
+    - application
     - .ebextensions/**/*
   #base-directory: 'target/my-web-app'
   
