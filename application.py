@@ -4,7 +4,7 @@ import logging.handlers
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
-# Handler 
+# Handler
 LOG_FILE = '/tmp/sample-app.log'
 handler = logging.handlers.RotatingFileHandler(LOG_FILE, maxBytes=1048576, backupCount=5)
 handler.setLevel(logging.INFO)
@@ -36,7 +36,7 @@ welcome = """
   <style>
   body {
     color: #ffffff;
-    background-color: #E0E0E0;
+    background-color: #6699ff;
     font-family: Arial, sans-serif;
     font-size:14px;
     -moz-transition-property: text-shadow;
@@ -110,8 +110,8 @@ welcome = """
     <p>Your first AWS Elastic Beanstalk Python Application is now running on your own dedicated environment in the AWS Cloud</p>
     <p>This environment is launched with Elastic Beanstalk Python Platform</p>
   </div>
-  
-  <div class="linksColumn"> 
+
+  <div class="linksColumn">
     <h2>What's Next?</h2>
     <ul>
     <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/">AWS Elastic Beanstalk overview</a></li>
